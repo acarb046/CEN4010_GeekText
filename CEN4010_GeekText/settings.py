@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Feature_Wishlist.apps.FeatureWishlistConfig'
 ]
 
 MIDDLEWARE = [
@@ -76,8 +77,12 @@ WSGI_APPLICATION = 'CEN4010_GeekText.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'GeekText',
+        'USER': 'postgres',
+        'PASSWORD': 'Beerg33k!',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
