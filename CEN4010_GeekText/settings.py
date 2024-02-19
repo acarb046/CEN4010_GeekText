@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'CEN4010_GeekText.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'Feature_Boswell',
+        'USER': 'postgres',
+        'PASSWORD': 'group8',
+        'HOST': 'localhost',  # or your PostgreSQL server IP
+        'PORT': '5432',       # default PostgreSQL port
     }
 }
 
