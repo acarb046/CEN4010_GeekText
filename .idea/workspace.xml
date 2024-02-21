@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="143fe1f9-660e-4888-956c-5b6bd9e913d4" name="Changes" comment="Connected Database, ran command to inspect connected database but not now to do cleanup.  Connected to database and pulled data.">
-      <change afterPath="$PROJECT_DIR$/Feature_Wishlist/serializers.py" afterDir="false" />
+    <list default="true" id="143fe1f9-660e-4888-956c-5b6bd9e913d4" name="Changes" comment="Redid the structure of branch to allow for rest_api commands.">
+      <change afterPath="$PROJECT_DIR$/Feature_Wishlist/migrations/0002_alter_books_options_alter_wishlistitems_options.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CEN4010_GeekText/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CEN4010_GeekText/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CEN4010_GeekText/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CEN4010_GeekText/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Feature_Wishlist/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Feature_Wishlist/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +39,16 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2cTsrKyMqG2VZwqeQdR5xH5eHOS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "Django Server.CEN4010_GeekText.executor": "Run",
     "HTTP Request.CEN4010_GeekText-endpoints | #1.executor": "Run",
@@ -227,7 +227,7 @@
       <workItem from="1708193577124" duration="18789000" />
       <workItem from="1708280567994" duration="11264000" />
       <workItem from="1708376439769" duration="8374000" />
-      <workItem from="1708471407581" duration="15380000" />
+      <workItem from="1708471407581" duration="16612000" />
     </task>
     <task id="LOCAL-00001" summary="New Project Repository">
       <option name="closed" value="true" />
@@ -261,17 +261,27 @@
       <option name="project" value="LOCAL" />
       <updated>1708223904327</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Redid the structure of branch to allow for rest_api commands.">
+      <option name="closed" value="true" />
+      <created>1708499005682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708499005682</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="New Project Repository" />
     <MESSAGE value="Connected Database, ran command to inspect connected database but not now to do cleanup." />
     <MESSAGE value="Connected Database, ran command to inspect connected database but not now to do cleanup.  Connected to database and pulled data." />
-    <option name="LAST_COMMIT_MESSAGE" value="Connected Database, ran command to inspect connected database but not now to do cleanup.  Connected to database and pulled data." />
+    <MESSAGE value="Redid the structure of branch to allow for rest_api commands." />
+    <option name="LAST_COMMIT_MESSAGE" value="Redid the structure of branch to allow for rest_api commands." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CEN4010_GeekText$teststuff.coverage" NAME="teststuff Coverage Results" MODIFIED="1708220179500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Feature_Wishlist" />
