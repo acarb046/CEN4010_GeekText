@@ -16,10 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from Feature_Wishlist import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('Feature_Wishlist.urls')),
+    path('api/', include('Feature_Wishlist.urls')),
+    path('', views.home, name='home'),
 ]
+
+
 
 

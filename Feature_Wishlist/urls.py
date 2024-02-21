@@ -1,13 +1,12 @@
-from django.urls import path
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
 from . import views
-from .views import my_view, get_wishlist
-from django.shortcuts import redirect
+
+router = DefaultRouter()
+router.register(r'books', views.BooksViewset)
+router.register(r'Wishlist', views.WishlistViewset)
+router.register(r'WishlistItems', views.WishlistItemViewset)
 
 urlpatterns = [
-    path('user/<int:user_id>/wishlist/', views.get_user_wishlist,name='get_user_wishlist'),
-    path('wishlist_items/', views.get_wishlist_items, name='wishlist_items'),
-    path('get_wishlist/<int:user_id>/', views.get_wishlist, name='get_wishlist'),
-    path('my_view/', views.my_view, name='my_view'),  # Adjusted to use views.my_view
-    path('', lambda request: redirect('user/1/wishlist', permanent=False)),  # Correct syntax for redirect
+    path('', include(router.urls)),
 ]
-

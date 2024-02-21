@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="143fe1f9-660e-4888-956c-5b6bd9e913d4" name="Changes" comment="Connected Database, ran command to inspect connected database but not now to do cleanup.">
-      <change afterPath="$PROJECT_DIR$/Feature_Wishlist/getServerURL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feature_Wishlist/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feature_Wishlist/teststuff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feature_Wishlist/urls.py" afterDir="false" />
+    <list default="true" id="143fe1f9-660e-4888-956c-5b6bd9e913d4" name="Changes" comment="Connected Database, ran command to inspect connected database but not now to do cleanup.  Connected to database and pulled data.">
+      <change afterPath="$PROJECT_DIR$/Feature_Wishlist/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CEN4010_GeekText/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CEN4010_GeekText/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CEN4010_GeekText/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CEN4010_GeekText/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Feature_Wishlist/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Feature_Wishlist/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -35,6 +35,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Feature_Wishlist/views.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -46,7 +49,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Django Server.CEN4010_GeekText.executor": "Run",
+    "HTTP Request.CEN4010_GeekText-endpoints | #1.executor": "Run",
     "Python.getServerURL.executor": "Run",
     "Python.settings.executor": "Run",
     "Python.teststuff.executor": "Run",
@@ -61,7 +66,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.project",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -70,7 +75,10 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.teststuff">
+  <component name="RunManager" selected="HTTP Request.CEN4010_GeekText-endpoints | #1">
+    <configuration name="CEN4010_GeekText-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/CEN4010_GeekText-endpoints.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="getServerURL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CEN4010_GeekText" />
       <option name="ENV_FILES" value="" />
@@ -145,6 +153,9 @@
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Feature_Wishlist" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -187,6 +198,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.CEN4010_GeekText-endpoints | #1" />
         <item itemvalue="Python.teststuff" />
         <item itemvalue="Python.getServerURL" />
         <item itemvalue="Python.views" />
@@ -212,7 +224,10 @@
       <workItem from="1708147111340" duration="4927000" />
       <workItem from="1708152351945" duration="807000" />
       <workItem from="1708183165939" duration="3126000" />
-      <workItem from="1708193577124" duration="18643000" />
+      <workItem from="1708193577124" duration="18789000" />
+      <workItem from="1708280567994" duration="11264000" />
+      <workItem from="1708376439769" duration="8374000" />
+      <workItem from="1708471407581" duration="15380000" />
     </task>
     <task id="LOCAL-00001" summary="New Project Repository">
       <option name="closed" value="true" />
@@ -238,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708183227619</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Connected Database, ran command to inspect connected database but not now to do cleanup.  Connected to database and pulled data.">
+      <option name="closed" value="true" />
+      <created>1708223904326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708223904327</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +270,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Project Repository" />
     <MESSAGE value="Connected Database, ran command to inspect connected database but not now to do cleanup." />
-    <option name="LAST_COMMIT_MESSAGE" value="Connected Database, ran command to inspect connected database but not now to do cleanup." />
+    <MESSAGE value="Connected Database, ran command to inspect connected database but not now to do cleanup.  Connected to database and pulled data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Connected Database, ran command to inspect connected database but not now to do cleanup.  Connected to database and pulled data." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CEN4010_GeekText$teststuff.coverage" NAME="teststuff Coverage Results" MODIFIED="1708220179500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Feature_Wishlist" />
