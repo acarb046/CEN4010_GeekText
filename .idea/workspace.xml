@@ -4,57 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="143fe1f9-660e-4888-956c-5b6bd9e913d4" name="Changes" comment="database set up">
-      <change afterPath="$PROJECT_DIR$/bookstore/books/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/.dylibs/libcom_err.3.0.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/.dylibs/libcrypto.3.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/.dylibs/libgssapi_krb5.2.2.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/.dylibs/libintl.8.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/.dylibs/libk5crypto.3.1.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/.dylibs/libkrb5.3.3.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/.dylibs/libkrb5support.1.1.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/.dylibs/libpq.5.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/.dylibs/libssl.3.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/_ipaddress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/_psycopg.cpython-312-darwin.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/_range.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/errorcodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/extensions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/extras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/pool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2/tz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2_binary-2.9.9.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2_binary-2.9.9.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2_binary-2.9.9.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2_binary-2.9.9.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2_binary-2.9.9.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2_binary-2.9.9.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.12/site-packages/psycopg2_binary-2.9.9.dist-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="143fe1f9-660e-4888-956c-5b6bd9e913d4" name="Changes" comment="book genre feature. database accessibility">
+      <change afterPath="$PROJECT_DIR$/bookstore/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore/bookstore/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CEN4010_GeekText/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CEN4010_GeekText/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/bookbrowse/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/books/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/bookbrowse/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/books/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/bookbrowse/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/books/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/bookbrowse/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/books/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/bookbrowse/migrations/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/bookbrowse/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/books/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/bookbrowse/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/books/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/bookbrowse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/books/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/browsesort/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/bookstore/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/browsesort/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/bookstore/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/browsesort/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/browsesort/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/browsesort/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/bookstore/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/browsesort/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/bookstore/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/browsesort/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/browsesort/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/bookstore/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsesort/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/books/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/books/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/books/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/books/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/books/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/books/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/books/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/books/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/bookstore/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/bookstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/bookstore/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/bookstore/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +54,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -112,7 +72,11 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Django Server.CEN4010_GeekText.executor": "Run",
     "Django tests.Test: bookstore.books.executor": "Run",
+    "Django tests.Test: bookstore.executor": "Run",
     "Python.manage.executor": "Run",
+    "Python.settings.executor": "Run",
+    "Python.urls (1).executor": "Run",
+    "Python.urls.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -132,8 +96,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Django Server.CEN4010_GeekText">
-    <configuration name="Test: bookstore.books" type="DjangoTestsConfigurationType" temporary="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bookstore/bookstore" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="Test: bookstore" type="DjangoTestsConfigurationType" temporary="true">
       <module name="CEN4010_GeekText" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,7 +116,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="bookstore.books" />
+      <option name="TARGET" value="bookstore" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -163,12 +132,81 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bookstore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bookstore/bookstore" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bookstore/manage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bookstore/bookstore/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CEN4010_GeekText" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bookstore/bookstore" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bookstore/bookstore/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urls (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CEN4010_GeekText" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bookstore/books" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bookstore/books/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CEN4010_GeekText" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CEN4010_GeekText" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CEN4010_GeekText/urls.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +243,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.manage" />
-        <item itemvalue="Django tests.Test: bookstore.books" />
+        <item itemvalue="Python.urls (1)" />
+        <item itemvalue="Python.urls" />
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Django tests.Test: bookstore" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +268,7 @@
       <workItem from="1708147111340" duration="3000" />
       <workItem from="1709933757366" duration="8219000" />
       <workItem from="1710192413978" duration="755000" />
-      <workItem from="1711239751765" duration="2788000" />
+      <workItem from="1711239751765" duration="8095000" />
     </task>
     <task id="LOCAL-00001" summary="database set up">
       <option name="closed" value="true" />
@@ -237,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710039590545</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="book genre feature. database accessibility">
+      <option name="closed" value="true" />
+      <created>1711243739591</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711243739591</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,20 +295,26 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="database set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="database set up" />
+    <MESSAGE value="book genre feature. database accessibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="book genre feature. database accessibility" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/bookstore/books/urls.py</url>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/CEN4010_GeekText/urls.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CEN4010_GeekText$manage.coverage" NAME="manage Coverage Results" MODIFIED="1711243290205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore" />
-    <SUITE FILE_PATH="coverage/CEN4010_GeekText$Test__bookstore_books.coverage" NAME="Test: bookstore.books Coverage Results" MODIFIED="1711243035413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CEN4010_GeekText$manage.coverage" NAME="manage Coverage Results" MODIFIED="1711319756914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/bookstore" />
+    <SUITE FILE_PATH="coverage/CEN4010_GeekText$urls.coverage" NAME="urls Coverage Results" MODIFIED="1711318491035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CEN4010_GeekText" />
+    <SUITE FILE_PATH="coverage/CEN4010_GeekText$Test__bookstore_books.coverage" NAME="Test: bookstore.books Coverage Results" MODIFIED="1711316432656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CEN4010_GeekText$Test__bookstore.coverage" NAME="Test: bookstore Coverage Results" MODIFIED="1711318323642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CEN4010_GeekText$settings.coverage" NAME="settings Coverage Results" MODIFIED="1711318481584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/bookstore" />
+    <SUITE FILE_PATH="coverage/CEN4010_GeekText$urls__1_.coverage" NAME="urls (1) Coverage Results" MODIFIED="1711319034354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookstore/books" />
   </component>
 </project>
