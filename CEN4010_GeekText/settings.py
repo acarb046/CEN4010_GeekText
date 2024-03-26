@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'shared',
 
-    #'shopping_cart'
+    'shopping_cart'
 ]
 
 MIDDLEWARE = [
