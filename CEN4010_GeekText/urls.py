@@ -16,8 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from Details2.views import BookDetailsAPIView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('Details1.urls')),
+    path('api/', include('Details2.urls')),
+    path('api/', include('Details3.urls')),
+    path('api/book/<str:isbn>/', BookDetailsAPIView.as_view(), name='book_details'),
+    path('Details3/', include('Details3.urls')),
 ]
